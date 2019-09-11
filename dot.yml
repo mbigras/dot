@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: install graphviz
+      apt:
+        name: graphviz
+        force_apt_get: yes
+        update_cache: yes
