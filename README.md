@@ -23,3 +23,7 @@ digraph G {
 }
 EOF
 ```
+
+## Example image
+
+![](./graph1.png)
